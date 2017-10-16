@@ -1,0 +1,23 @@
+.footer
+	position: fixed
+	font: 15px $main-font-family
+	bottom: 10px
+	width: 100%
+	text-align: center
+	z-index: 2
+	.footer-arrow
+		padding-left: 50px
+		padding-right: 50px
+		position: relative
+		@each $name in left, right
+			.footer-arrow-#{$name}
+				float: #{$name}
+				
+				background-color: $grey
+				width: (260/1.6) +  px
+				height: 1px
+	.footer-name
+		color: $dark-grey
+		text-decoration: none
+		position: relative
+		top: -3px

@@ -1,0 +1,221 @@
+.background-blocks, .block-about .block-about-img .block-about-img-img {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("../fonts/Geometria.eot");
+  src: url("../fonts/Geometria.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometria.woff") format("woff"), url("../fonts/Geometria.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garamond';
+  src: url("../fonts/Garamond.eot");
+  src: url("../fonts/Garamond.eot?#iefix") format("embedded-opentype"), url("../fonts/Garamond.woff") format("woff"), url("../fonts/Garamond.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  margin-top: 26px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.header .header-arrow .header-arrow-left {
+  float: left;
+  background-color: #cccccc;
+  width: 162.5px;
+  height: 1px;
+}
+
+.header .header-arrow .header-arrow-right {
+  float: right;
+  background-color: #cccccc;
+  width: 162.5px;
+  height: 1px;
+}
+
+.header .header-title {
+  font: 12px "Garamond";
+  position: relative;
+  top: -20px;
+}
+
+.header .header-title .header-title-dot, .header .header-title .header-title-name, .header .header-title .header-title-dot2 {
+  width: 100%;
+  text-align: center;
+}
+
+.header .header-title .header-title-dot {
+  font: 16px "Garamond";
+}
+
+.header .header-title .header-title-name {
+  font: 16px "Garamond";
+  line-height: 1;
+}
+
+.header .header-title .header-title-dot2 {
+  font: 16px "Garamond";
+  line-height: 0.4;
+}
+
+.social-link {
+  bottom: 250px;
+  left: -155px;
+  transform: rotate(270deg);
+  position: absolute;
+  z-index: 2;
+}
+
+.social-link .social-link-a {
+  margin-left: 40px;
+  color: black;
+  display: inline-block;
+}
+
+.social-link .social-link-line {
+  display: inline-block;
+  width: 155px;
+  height: 1px;
+  background-color: black;
+  margin-left: 40px;
+}
+
+.footer {
+  position: fixed;
+  font: 15px "Garamond";
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.footer .footer-arrow {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+
+.footer .footer-arrow .footer-arrow-left {
+  float: left;
+  background-color: #cccccc;
+  width: 162.5px;
+  height: 1px;
+}
+
+.footer .footer-arrow .footer-arrow-right {
+  float: right;
+  background-color: #cccccc;
+  width: 162.5px;
+  height: 1px;
+}
+
+.footer .footer-name {
+  color: #c9c9c9;
+  text-decoration: none;
+  position: relative;
+  top: -3px;
+}
+
+.background-blocks, .block-about .block-about-img .block-about-img-img {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+}
+
+.background-blocks {
+  top: 0;
+  height: 100%;
+  display: flex;
+}
+
+.background-blocks .background-blocks-first-white, .background-blocks .background-blocks-first-pink {
+  top: 0;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+
+.background-blocks .background-blocks-first-white {
+  left: 0;
+}
+
+.background-blocks .background-blocks-first-pink {
+  background-color: #f6f0ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-blocks .background-blocks-first-pink .background-blocks-first-pink-obertka {
+  width: 69%;
+  height: 69%;
+  transform: scaleX(0.8);
+}
+
+.background-blocks .background-blocks-first-pink .background-blocks-first-pink-romb {
+  border: 2px solid white;
+  transform: rotate(45deg);
+  width: 100%;
+  height: 100%;
+}
+
+.block-about {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.block-about .block-about-text {
+  width: 50%;
+  position: relative;
+  left: 100px;
+  top: 80px;
+}
+
+.block-about .block-about-text .block-about-text-title {
+  font: 60px "Garamond";
+  font-weight: 400;
+}
+
+.block-about .block-about-text .block-about-text-description {
+  position: relative;
+  top: 170px;
+  left: 350px;
+}
+
+.block-about .block-about-text .block-about-text-description .block-about-text-description-line {
+  width: 270px;
+  height: 1px;
+  background-color: black;
+}
+
+.block-about .block-about-text .block-about-text-description .block-about-text-description-text {
+  position: relative;
+  top: 10px;
+  font: 14px "Garamond";
+  width: 180px;
+}
+
+.block-about .block-about-img {
+  margin-left: 25%;
+  width: 50%;
+  position: relative;
+  height: 552.94118px;
+}
+
+.block-about .block-about-img .block-about-img-img {
+  width: 305.88235px;
+  height: 552.94118px;
+}

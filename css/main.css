@@ -1,0 +1,240 @@
+.background-text {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("../fonts/Geometria.eot");
+  src: url("../fonts/Geometria.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometria.woff") format("woff"), url("../fonts/Geometria.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garamond';
+  src: url("../fonts/Garamond.eot");
+  src: url("../fonts/Garamond.eot?#iefix") format("embedded-opentype"), url("../fonts/Garamond.woff") format("woff"), url("../fonts/Garamond.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  margin-top: 26px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.header .header-arrow .header-arrow-left {
+  float: left;
+  background-color: #cccccc;
+  width: 162.5px;
+  height: 1px;
+}
+
+.header .header-arrow .header-arrow-right {
+  float: right;
+  background-color: #cccccc;
+  width: 162.5px;
+  height: 1px;
+}
+
+.header .header-title {
+  font: 12px "Garamond";
+  position: relative;
+  top: -20px;
+}
+
+.header .header-title .header-title-dot, .header .header-title .header-title-name, .header .header-title .header-title-dot2 {
+  width: 100%;
+  text-align: center;
+}
+
+.header .header-title .header-title-dot {
+  font: 16px "Garamond";
+}
+
+.header .header-title .header-title-name {
+  font: 16px "Garamond";
+  line-height: 1;
+}
+
+.header .header-title .header-title-dot2 {
+  font: 16px "Garamond";
+  line-height: 0.4;
+}
+
+.social-link {
+  bottom: 250px;
+  left: -155px;
+  transform: rotate(270deg);
+  position: absolute;
+  z-index: 2;
+}
+
+.social-link .social-link-a {
+  margin-left: 40px;
+  color: black;
+  display: inline-block;
+}
+
+.social-link .social-link-line {
+  display: inline-block;
+  width: 155px;
+  height: 1px;
+  background-color: black;
+  margin-left: 40px;
+}
+
+.footer {
+  position: fixed;
+  font: 15px "Garamond";
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.footer .footer-arrow {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+
+.footer .footer-arrow .footer-arrow-left {
+  float: left;
+  background-color: #cccccc;
+  width: 162.5px;
+  height: 1px;
+}
+
+.footer .footer-arrow .footer-arrow-right {
+  float: right;
+  background-color: #cccccc;
+  width: 162.5px;
+  height: 1px;
+}
+
+.footer .footer-name {
+  color: #c9c9c9;
+  text-decoration: none;
+  position: relative;
+  top: -3px;
+}
+
+body {
+  background-color: white;
+}
+
+.blocks {
+  position: relative;
+  z-index: 2;
+  top: 2px;
+  width: 78.94737%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: self-start;
+  justify-content: space-between;
+}
+
+.blocks .blocks-item {
+  display: block;
+  padding-left: 23px;
+}
+
+.blocks .blocks-item .blocks-item-subtitle {
+  color: #c9c9c9;
+  font: 15px "Garamond";
+  transform: rotate(270deg);
+  position: relative;
+  left: -58%;
+  margin-left: -23px;
+  top: -14px;
+}
+.blocks-item-img-main {
+  width: 140%;
+}
+.left-img {
+  margin-left: 20%;
+}
+.top-img {
+  margin-top: 20%;
+}
+.blocks .blocks-item .blocks-item-img {
+  width: 150px;
+  height: 225px;
+  background-color: rgb(215,220,223);
+}
+
+.blocks .blocks-item .blocks-item-title {
+  position: relative;
+  left: -20px;
+  font: 16px "Garamond";
+  margin-top: -30px;
+}
+
+.blocks .blocks-item .blocks-item-title .blocks-item-title-text {
+  color: black;
+  text-decoration: none;
+}
+
+.blocks .blocks-item .blocks-item-title .blocks-item-title-arrow {
+  margin-top: 10px;
+  color: #c9c9c9;
+}
+
+.blocks + .blocks {
+  top: 10px;
+}
+
+.block-text-item {
+  width: 400px;
+  display: block;
+  position: relative;
+  top: 15px;
+  font: 14px "Garamond";
+}
+
+.block-text-item .block-text-item-row {
+  position: relative;
+}
+
+.block-text-item .block-text-item-row .block-text-item-row-subtitle, .block-text-item .block-text-item-row .block-text-item-row-title, .block-text-item .block-text-item-row .block-text-item-row-arrow {
+  display: inline-block;
+}
+
+.block-text-item .block-text-item-row .block-text-item-row-subtitle {
+  color: #c9c9c9;
+}
+
+.block-text-item .block-text-item-row .block-text-item-row-title {
+  position: relative;
+  left: 20px;
+  font: 15px "Garamond";
+}
+
+.block-text-item .block-text-item-row .block-text-item-row-arrow {
+  position: absolute;
+  right: 0;
+  color: #c9c9c9;
+}
+
+.block-text-item .block-text-item-row + .block-text-item-row {
+  margin-top: 10px;
+}
+
+.background-text {
+  top: 2px;
+  height: calc(100% - 2px);
+  text-align: center;
+  color: #f6f0ef;
+  font: 243px "Garamond";
+  font-weight: 300;
+  line-height: 100vh;
+  z-index: 1;
+}

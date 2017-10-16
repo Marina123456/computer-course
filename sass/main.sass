@@ -1,0 +1,95 @@
+@import "values"
+@import "templates"
+@import "fonts"
+
+@import "header"
+@import "social-link"
+@import "footer"
+
+
+body
+	background-color: white
+
+.blocks
+	position: relative
+	z-index: 2
+	top: 2px
+
+	width: $main-width+%
+	margin: 0 auto
+	display: flex
+	flex-wrap: wrap
+	align-items: self-start
+	justify-content: space-between
+	.blocks-item
+		display: block
+		padding-left: 23px
+		.blocks-item-subtitle
+			color: $dark-grey
+			font: 15px $main-font-family
+			transform: rotate(270deg)
+			position: relative
+			left: -58%
+			margin-left: -23px
+			top: -25px
+		.blocks-item-img
+			width: (240/1.6) +  px
+			height: (360/1.6)+  px
+		.blocks-item-title
+			position: relative
+			left: -20px
+			font: 16px $main-font-family
+			margin-top: -30px
+			.blocks-item-title-text
+				color: $main-color
+				text-decoration: none
+			.blocks-item-title-arrow
+				margin-top: 10px
+				color: $dark-grey
+.blocks + .blocks
+	top: 10px
+.block-text-item
+	width: 400px
+	display: block
+	position: relative
+	top: 15px
+	font: 14px $main-font-family
+
+	.block-text-item-row
+		position: relative
+		%block-line
+			display: inline-block
+		.block-text-item-row-subtitle
+			@extend %block-line
+			color: $dark-grey
+		.block-text-item-row-title
+			@extend %block-line
+			position: relative
+			left: 20px
+			font: 15px $main-font-family
+		.block-text-item-row-arrow
+			@extend %block-line
+			position: absolute
+			right: 0
+			color: $dark-grey
+	.block-text-item-row + .block-text-item-row
+		margin-top: 10px
+
+
+
+.background-text
+	@extend %background-element
+	top: 2px
+	height: calc(100% - 2px)
+	text-align: center
+	color: $blind-pink
+	font: 243px $main-font-family
+	font-weight: 300
+	line-height: 100vh
+	z-index: 1
+	
+
+
+
+			
+

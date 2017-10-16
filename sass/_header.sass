@@ -1,0 +1,32 @@
+.header
+	margin-top: 26px
+	padding-left: 50px
+	padding-right: 50px
+	position: relative
+	z-index: 2
+	.header-arrow
+		@each $name in left, right
+			.header-arrow-#{$name}
+				float: #{$name}
+				
+				background-color: $grey
+				width: (260/1.6) +  px
+				height: 1px
+	.header-title	
+		font: 12px $main-font-family
+		position: relative
+		top: -20px
+		%center-block
+			width: 100%
+			text-align: center	
+		.header-title-dot
+			@extend %center-block
+			font: 16px $main-font-family			
+		.header-title-name
+			@extend %center-block
+			font: 16px $main-font-family
+			line-height: 1
+		.header-title-dot2
+			@extend %center-block
+			font: 16px $main-font-family
+			line-height: 0.4

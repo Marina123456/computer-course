@@ -1,0 +1,87 @@
+@import "values"
+@import "templates"
+@import "fonts"
+
+@import "header"
+@import "social-link"
+@import "footer"
+
+
+%background-element
+	position: absolute
+	overflow: hidden
+	left: 0
+	width: 100%
+
+.background-blocks
+	@extend %background-element
+	top: 0
+	height: 100%
+	display: flex
+	%background-blocks-first
+		top: 0
+		display: inline-block
+		width: 50%
+		height: 100%
+	.background-blocks-first-white
+		@extend  %background-blocks-first
+		left: 0
+	.background-blocks-first-pink
+		@extend  %background-blocks-first
+		background-color: $blind-pink
+		display: flex
+		justify-content: center
+		align-items: center
+		.background-blocks-first-pink-obertka
+			width: 69%
+			height: 69%
+			transform: scaleX(0.8)
+		.background-blocks-first-pink-romb
+			border: 2px solid white
+			transform: rotate(45deg) 
+			width: 100%
+			height: 100%
+			
+
+.block-about
+	display: flex
+	position: relative
+	z-index: 2
+	overflow: hidden
+	.block-about-text
+		width: 50%
+		position: relative
+		left: 100px
+		top: 80px
+		
+
+		.block-about-text-title
+			font: 60px $main-font-family
+			font-weight: 400
+		.block-about-text-description
+			position: relative
+			top: 170px
+			left: 350px
+			.block-about-text-description-line
+				width: 270px
+				height: 1px
+				background-color: black
+			.block-about-text-description-text
+				position: relative
+				top: 10px
+				font: 14px $main-font-family
+				width: 180px
+
+
+	.block-about-img
+		margin-left: 25%
+		width: 50%;
+		position: relative;
+		
+		height: (940/1.7) +  px
+		.block-about-img-img
+			
+			width: (520/1.7) +  px
+			height: (940/1.7) +  px
+			@extend %background-element
+			
